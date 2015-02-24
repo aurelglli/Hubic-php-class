@@ -10,5 +10,5 @@ Fill the constants to begin:
 
 That's all !
 
-See OpenStack specifications to retrieve scope functionnalities:
+HubiC use OpenStack specifications, retrieve differents scope syntaxs here:
 http://developer.openstack.org/api-ref-objectstorage-v1.html
