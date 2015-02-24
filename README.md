@@ -1,5 +1,5 @@
 # Hubic-php-class
-Simple php class to connect HubiC storage cloud
+<h3>Simple php class to connect HubiC storage cloud</h3>
 
 Fill the constants to begin:
 
