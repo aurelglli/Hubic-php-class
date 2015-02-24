@@ -1,2 +1,2 @@
-# Hubic-simple-class
+# Hubic-php-class
 Simple class to connect Hubic
