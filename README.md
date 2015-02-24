@@ -9,3 +9,6 @@ Fill the constants to begin:
     const CALLBACK_URL = '';
 
 That's all !
+
+See OpenStack specifications to retrieve scope functionnalities:
+http://developer.openstack.org/api-ref-objectstorage-v1.html
