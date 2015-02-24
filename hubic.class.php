@@ -11,7 +11,6 @@
     License for the specific language governing permissions and limitations under
     the License.
  */
-
 class hubic
   {
     const ACCOUNT_PASSWORD = '';
@@ -31,7 +30,6 @@ class hubic
                 print_r(self::listObj($getTokens->access_token));
                 break;
             default:
-                header('HTTP/1.0 301 Redirect');
                 header("Location: " . self::getAuthorizeLink());
         }
       }
