@@ -27,7 +27,7 @@ class hubic
                   {
                     $getTokens = self::refreshTokens($getTokens->refresh_token);
                   }
-                print_r(self::listObj($getTokens->access_token));
+                print_r(self::test($getTokens->access_token));
                 break;
             default:
                 header("Location: " . self::getAuthorizeLink());
@@ -80,7 +80,7 @@ class hubic
           }
         return json_decode(curl_exec($c));
       }
-    public function listObj($access_token)
+    public function test($access_token)
       {
         $o = array(
             'Authorization: Bearer ' . $access_token
