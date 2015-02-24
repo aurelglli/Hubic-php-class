@@ -8,7 +8,7 @@ Fill the constants to begin:
     const KEY_SECRET = '';
     const CALLBACK_URL = '';
 
-That's all !
+<h3>That's all !</h3>
 
-HubiC use OpenStack specifications, scope documentation here:
+HubiC use OpenStack specifications, scope documentation here:<br>
 http://developer.openstack.org/api-ref-objectstorage-v1.html
