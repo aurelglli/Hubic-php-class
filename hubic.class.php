@@ -15,7 +15,6 @@ class hubic
                   {
                     $getTokens = self::refreshTokens($getTokens->refresh_token);
                   }
-                /*Test a call*/
                 print_r(self::listObj($getTokens->access_token));
                 break;
             default:
