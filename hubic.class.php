@@ -80,13 +80,6 @@ class hubic
           }
         return json_decode(curl_exec($c));
       }
-    public function usage($access_token)
-      {
-        $o = array(
-            'Authorization: Bearer ' . $access_token
-        );
-        return self::call('https://api.hubic.com/1.0/account/usage/', $o);
-      }
     public function listObj($access_token)
       {
         $o = array(
